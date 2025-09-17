@@ -1,0 +1,4 @@
+com/reinaldo/logger/config/RequestLoggerAutoConfiguration.class
+META-INF/spring-configuration-metadata.json
+com/reinaldo/logger/filter/RequestLoggingFilter.class
+com/reinaldo/logger/config/RequestLoggerProperties.class

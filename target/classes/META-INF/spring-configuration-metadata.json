@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "request-logger",
+      "type": "com.reinaldo.logger.config.RequestLoggerProperties",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "request-logger.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.excluded-headers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.excluded-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.log-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.log-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.log-response-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    },
+    {
+      "name": "request-logger.max-body-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.reinaldo.logger.config.RequestLoggerProperties"
+    }
+  ],
+  "hints": []
+}
